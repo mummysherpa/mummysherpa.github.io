@@ -1,0 +1,93 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "http://mummysherpa.com"
+title: Mummy Sherpa's blog # site's title
+description: "Mummy Sherpa's blog" # used by search engines
+gems: [jekyll-paginate, jekyll-seo-tag]
+
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Mummy Sherpa's blog # blog's title
+  avatar: assets/img/pixie-ars-poetica.jpg
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+     <p><font color="#161835">Welcome to Mummy Sherpa's blog!</font></p>
+  header_text_feature_image: assets/img/mummy-home-feature.jpg
+  footer_text: ""
+  # Icons
+  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  email_address: mummy.sherpa@gmail.com # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github:
+  google_plus:
+  instagram: "mummysherpa"
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: # "twitter username"
+  vimeo:
+  wordpress:
+  youtube:
+
+  # Scripts / Features 
+  google_analytics: UA-91028316-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: https-mummysherpa-github-io
+  katex: true # Enable if using math markup
+  search: true
+  tags: true
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+  
+
+# PAGINATION
+paginate: 10
+paginate_path: "blog/page:num"
+
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins_dir: [jekyll-paginate, jekyll-seo-tag]
+#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "mummy-sherpa.gemspec", "*.gem", "LICENSE", "README.md"]
