@@ -10,6 +10,9 @@ layout: default
     </p>
   </header>
   <section class="post-content">
+    {% if page.header %}
+    <p>{{ page.header }}
+    {% endif %}
     {{ content }}
     {% include share_bar.html %}
   </section>

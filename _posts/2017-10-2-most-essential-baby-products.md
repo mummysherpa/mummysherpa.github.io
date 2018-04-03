@@ -16,7 +16,7 @@ I decided to write a series of posts of our favourite products which helped us a
 
 * [Diaper genie](/blog/2017/11/27/diaper-genie)
 
-* Pop up tent for the beach
+* [Pop up tent for the beach](/2018/04/03/pop-up-tent-for-the-beach.html)
 
 * Hiking back carrier
 
