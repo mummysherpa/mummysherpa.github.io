@@ -13,3 +13,5 @@ She got used to walking with me, I'm very proud of her. For a long time, she was
 She is getting more and more independent but she likes to be carried and wants to be close to me.
 
 If you feel good while carrying your toddler you don't have to stop during your pregnancy. Your body will tell you if it's too much. But be prepared that you might need to find a new carrier or use your wrap in a different style.
+
+![Carrying Pixie during the end of pregnancy]({{ site.baseurl }}/assets/img/carrying-pixie-end-of-pregnancy.jpg)
