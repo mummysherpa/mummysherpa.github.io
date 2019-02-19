@@ -5,7 +5,7 @@ title: Mummy Sherpa's blog # site's title
 description: "Mummy Sherpa's blog" # used by search engines
 gems: [jekyll-paginate, jekyll-seo-tag]
 permalink: /blog/:year/:month/:day/:title
-
+future: false
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
