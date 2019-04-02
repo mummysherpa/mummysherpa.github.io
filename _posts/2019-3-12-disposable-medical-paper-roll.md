@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disposable medical paper roll"
-date: 2019-3-12
+date: 2019-3-14
 excerpt_separator: <!--more-->
 ---
 [This](https://amzn.to/2GQLGHi) is not a true baby product, but it saved us a lot's of washing and made our life easier!
