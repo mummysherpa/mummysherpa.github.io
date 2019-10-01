@@ -1,29 +1,23 @@
-# SITE CONFIGURATION
 baseurl: ""
 url: "http://mummysherpa.com"
-title: Mummy Sherpa's blog # site's title
-description: "Mummy Sherpa's blog" # used by search engines
+title: Mummy Sherpa's blog
+description: "Mummy Sherpa's blog"
 gems: [jekyll-paginate, jekyll-seo-tag]
 permalink: /blog/:year/:month/:day/:title
 future: false
 
-# THEME-SPECIFIC CONFIGURATION
 theme_settings:
-  # Meta
-  title: Mummy Sherpa's blog # blog's title
+  title: Mummy Sherpa's blog
   avatar: assets/img/pixie-ars-poetica.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
-  # Header and footer text
   header_text: > #two or three lines to describe your site
      <p><font color="#161835">Welcome to Mummy Sherpa's blog!</font></p>
   header_text_feature_image: assets/img/mummy-home-feature.jpg
   footer_text: ""
-  # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: mummy.sherpa@gmail.com # Full email address, e.g. "sam@example.com"
-  behance:
+  email_address: mummy.sherpa@gmail.com
   bitbucket:
   dribbble:
   facebook:
@@ -45,7 +39,6 @@ theme_settings:
   wordpress:
   youtube:
 
-  # Scripts / Features 
   google_analytics: UA-91028316-1 # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname: https-mummysherpa-github-io
   katex: true # Enable if using math markup
