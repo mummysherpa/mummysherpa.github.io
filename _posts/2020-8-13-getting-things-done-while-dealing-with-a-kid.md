@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting things done while dealing with a kid"
-date: 2020-2-4
+date: 2020-8-13
 excerpt_separator: <!--more-->
 ---
 When I had to go to Budapest I had so many things to do.
